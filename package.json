@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "serve": "rm -rf .parcel/serve && parcel --cache-dir .parcel/cache --dist-dir .parcel/serve src/index.html --open",
+    "serve": "rm -rf .parcel/serve && parcel --cache-dir .parcel/cache --dist-dir .parcel/serve src/index.html",
     "bundle": "rm -rf dist && parcel build --public-url \"./\" --no-source-maps --cache-dir .parcel/cache --dist-dir dist src/index.html"
   },
   "keywords": [],
