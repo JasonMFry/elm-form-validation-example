@@ -2,7 +2,6 @@ module Main exposing (main)
 
 import Browser
 import Html as H
-import User exposing (User)
 import User.Age as Age exposing (Age)
 import User.DisplayName as DisplayName exposing (DisplayName)
 import User.Email as Email exposing (Email)
@@ -65,6 +64,12 @@ emptyModel =
     , ageError = ""
     }
 
+
+type alias User =
+    { email : Email
+    , displayName : DisplayName
+    , age : Age
+    }
 
 
 
